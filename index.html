@@ -14,48 +14,62 @@
 
     <div class="row d-flex justify-content-center align-items-center text-center">
         <div class="col d-flex justify-content-center align-items-center">
+            
+            <!-- card is used to display the UI -->
             <div class="card">
-                <h1>Quotes of the Day</h1>
+                <h1 class="my-custom-heading">Quotes of the Day</h1>
+                <h6>Select a quote to fuel your day</h6>
     
                 <!-- <div id="quote-container">
                 <p id="quote-text"></p>
                 <p id="author-name"></p>
                 </div>   -->
-
+            
+                <!-- quotation icons with the quote text -->
                 <div class="quote-area">
                     <i class="bi bi-quote"></i>
                     <p id="quote-text"></p>
                     <i class="bi bi-quote"></i>
                     <p id="author-name"></p>
-
                 </div>
 
 
             
                 <label for="quote-selector">Select Quote</label>
                 <select id="quote-selector" size="5">
+                <optgroup label="Movitaional">
                     <option selected value="0">Quote 1</option>
                     <option value="1">Quote 2</option>
                     <option value="2">Quote 3</option>
                     <option value="3">Quote 4</option>
+                </optgroup>
+                    
+                <optgroup label="Love and Relationsips"> 
                     <option value="4">Quote 5</option>
                     <option value="5">Quote 6</option>
                     <option value="6">Quote 7</option>
                     <option value="7">Quote 8</option>
+                </optgroup>
+                    
+                <optgroup label="Wisdom and Life"> 
                     <option value="8">Quote 9</option>
                     <option value="9">Quote 10</option>
                     <option value="10">Quote 11</option>
                     <option value="11">Quote 12</option>
+                </optgroup>
+        
+                <optgroup label="Humorous"> 
                     <option value="12">Quote 13</option>
                     <option value="13">Quote 14</option>
                     <option value="14">Quote 15</option>
                     <option value="15">Quote 16</option>
-            
+                </optgroup>
                 </select>
                 
                 <button id="btn">Display Selected Quote</button>
                 <hr>
-                
+                 
+                <!-- this is the code for the social icons -->
                 <div class="row">
                 <div class="column">
                     <i class="bi bi-facebook"></i>

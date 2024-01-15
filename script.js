@@ -23,8 +23,11 @@ const arrayQuotes = [
     {Text: "he best way to appreciate your job is to imagine yourself without  one", author: "Oscar Wilde"},
 
  ]
- 
-
+   //function to update the html dynamically in the future if needed 
+   function updateHTML() {
+    //add additional code here if needed
+   }
+//call the function for the html if needed
 
  function displaySelectedQuote() {
     
