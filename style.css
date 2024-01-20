@@ -24,6 +24,11 @@
     flex: 1;
 }
 
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
